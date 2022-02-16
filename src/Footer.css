@@ -1,0 +1,28 @@
+.footer {
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.information {
+  margin-top: 40px;
+  color: white;
+  line-height: 40px;
+}
+.list_info {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.list_info > ul > li:hover {
+  color: aqua;
+}
+.list_info > ul > li {
+  color: white;
+  list-style: none;
+  line-height: 40px;
+  cursor: pointer;
+}
+.list_info > h1 {
+  color: green;
+  font-size: 20px;
+}

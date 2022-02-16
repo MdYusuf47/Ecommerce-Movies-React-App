@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Praise&display=swap");
+.nav_bar {
+  background-color: #131921;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header_logo {
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+}
+.header_middle {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin-right: -230px;
+}
+.header_items {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+}
+.header_items:hover {
+  color: rgb(255, 204, 181);
+}
+.header_right {
+  display: flex;
+}
+.header_right_items {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.search_icon {
+  background-color: rgb(90, 90, 90);
+  border-radius: 999px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search_icon > input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+  font-size: large;
+  color: white;
+  font-weight: 500;
+}
